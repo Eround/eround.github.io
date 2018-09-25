@@ -5,8 +5,6 @@
         <meta charset="utf-8"/>
     </head>
     <body>HEAD
-        <?php
-            echo "<h1>the big fucking gay</h1>"
-        ?>
+        
     </body>
 </html>
