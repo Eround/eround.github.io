@@ -4,4 +4,4 @@ until then join our discord thx
 
 
 ## gimme discord fgt
-ok here is the [Discord](discord.gg/qrSAcvC)
+ok here is the [discord](discord.gg/qrSAcvC)
