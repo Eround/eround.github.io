@@ -11,3 +11,11 @@
     padding: 0.01%;
     margin: 0.0%;
 }
+
+a {
+    color: #00aac4;
+}
+
+a:hover {
+    color: #00ddff;
+}
