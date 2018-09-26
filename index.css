@@ -1,9 +1,13 @@
 .title {
     font-family: Verdana;
     color: black;
+    padding: 0.01%;
+    margin: 0.0%;
 }
 
 .subtitle {
     font-family: Georgia;
     color: #f4e21d;
+    padding: 0.01%;
+    margin: 0.0%;
 }
