@@ -17,13 +17,12 @@
     </head>
     <body>
         <!-- Navigation -->
-        <ul id='dropdown1' class='dropdown-content'>
-            <li><a href="#!">one</a></li>
-            <li><a href="#!">two</a></li>
-            <li class="divider" tabindex="-1"></li>
-            <li><a href="#!">three</a></li>
-            <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-            <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+        <ul id = "dropdown" class = "dropdown-content">
+            <li><a href = "#">Inbox<span class = "badge">12</span></a></li>
+            <li><a href = "#!">Unread<span class = "new badge">4</span></a></li>
+            <li><a href = "#">Sent</a></li>
+            <li class = "divider"></li>
+            <li><a href = "#">Outbox<span class = "badge">14</span></a></li>
         </ul>
         <nav>
             <div class="nav-wrapper deep-orange">
@@ -32,7 +31,7 @@
                     <li><a href="#">Home</a></li>
                     <li><a href="./about/">About</a></li>
                     <li><a href="./reviews/">Game Reviews</a></li>
-                    <li> <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Drop Me!</a></li>
+                    <li><a class="dropdown-button" href="#" data-activates="dropdown">Mail Box</a></li>
                 </ul>
             </div>
         </nav>
@@ -54,7 +53,7 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <link type="text/javascript" href="./-js/materialize.js"/>
         <script type="javascript">
-            $('.dropdown-trigger').dropdown();
+            
         </script>
     </body>
 </html>
