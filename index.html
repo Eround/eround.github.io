@@ -53,7 +53,14 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <link type="text/javascript" href="./-js/materialize.js"/>
         <script type="javascript">
-            
+            (function($){
+                $(function(){
+                    $('.button-collapse').sideNav();
+                    $('.parallax').parallax();
+                    $('select').material_select();
+                    $('.modal-trigger').leanModal();
+                });
+            })(jQuery);
         </script>
     </body>
 </html>
