@@ -12,20 +12,18 @@
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu|Roboto"/>
         <link rel="icon" type="image/png" href="./images/favicon.png"/>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!-- Other Links -->
-        <script
-        src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous"></script>
+        <!-- Other CSS Links -->
         <link rel="stylesheet" type="text/css" href="./-css/materialize.css"/>
     </head>
     <body>
         <!-- Navigation -->
-        <ul id="dropdown" class="dropdown-content">
+        <ul id='dropdown1' class='dropdown-content'>
             <li><a href="#!">one</a></li>
             <li><a href="#!">two</a></li>
-            <li class="divider"></li>
+            <li class="divider" tabindex="-1"></li>
             <li><a href="#!">three</a></li>
+            <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
         </ul>
         <nav>
             <div class="nav-wrapper deep-orange">
@@ -34,7 +32,7 @@
                     <li><a href="#">Home</a></li>
                     <li><a href="./about/">About</a></li>
                     <li><a href="./reviews/">Game Reviews</a></li>
-                    <li><a class="dropdown-button" href="#!" data-target="dropdown">Blogs<i class="material-icons">arrow_drop_down</i></a></li>
+                    <li> <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Drop Me!</a></li>
                 </ul>
             </div>
         </nav>
@@ -53,11 +51,10 @@
                 <a href="https://github.com/eround"><button class="btn hoverable waves-effect deep-orange darken-1">My Github</button></a>
         </div>
         <!-- Javascript Links and Code -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <link type="text/javascript" href="./-js/materialize.js"/>
         <script type="javascript">
-            $( document ).ready(function{
-                $(".dropdown-button").dropdown();
-            })
+            $('.dropdown-trigger').dropdown();
         </script>
     </body>
 </html>
